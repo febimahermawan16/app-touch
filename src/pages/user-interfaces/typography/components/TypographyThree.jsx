@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class BoxThree extends Component {
+export class TypographyThree extends Component {
     render() {
         return (
             <React.Fragment>
@@ -307,4 +307,4 @@ export class BoxThree extends Component {
     }
 }
 
-export default BoxThree
+export default TypographyThree

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import BoxFive from './components/BoxFive'
-import BoxFour from './components/BoxFour'
-import BoxOne from './components/BoxOne'
-import BoxThree from './components/BoxThree'
-import BoxTwo from './components/BoxTwo'
+import TypographyOne from './components/TypographyOne'
+import TypographyTwo from './components/TypographyTwo'
+import TypographyThree from './components/TypographyThree'
+import TypographyFour from './components/TypographyFour'
+import TypographyFive from './components/TypographyFive'
 
 export class Typographys extends Component {
     render() {
@@ -31,11 +31,11 @@ export class Typographys extends Component {
                         </div>
                     </div>
                 </div>
-                <BoxOne />
-                <BoxTwo />
-                <BoxThree />
-                <BoxFour />
-                <BoxFive />
+                <TypographyOne />
+                <TypographyTwo />
+                <TypographyThree />
+                <TypographyFour />
+                <TypographyFive />
             </React.Fragment>
         )
     }

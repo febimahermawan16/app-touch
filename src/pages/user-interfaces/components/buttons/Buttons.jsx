@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import ButtonsOne from './components/ButtonsOne'
+import ButtonsTwo from './components/ButtonsTwo'
 
 export class Buttons extends Component {
     render() {
@@ -27,6 +29,8 @@ export class Buttons extends Component {
                         </div>
                     </div>
                 </div>
+                <ButtonsOne />
+                <ButtonsTwo />
             </React.Fragment>
         )
     }

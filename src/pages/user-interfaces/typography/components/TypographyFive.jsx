@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class BoxFive extends Component {
+export class TypographyFive extends Component {
     render() {
         return (
             <React.Fragment>
@@ -64,7 +64,7 @@ export class BoxFive extends Component {
                                                 <span className="tcolor-white-3">.tcolor-white-3</span>
                                             </div>
                                             <div className="col-md-4 mgb-5">
-                                                <span className="tcolor-black-1">.tcolor-black-1</span>
+                                                <span className="tcolor-black">.tcolor-black</span>
                                             </div>
                                             <div className="col-md-4 mgb-5">
                                                 <span className="tcolor-black-2">.tcolor-black-2</span>
@@ -120,4 +120,4 @@ export class BoxFive extends Component {
     }
 }
 
-export default BoxFive
+export default TypographyFive
