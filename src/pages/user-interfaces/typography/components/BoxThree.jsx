@@ -11,7 +11,7 @@ export class BoxThree extends Component {
                         </div>
                         <div className='card-body'>
                             <div className="card-text mgb-15">
-                                Available to using font-size in <code>pixel</code> and <code>rem</code> mode with classes. You can using some size like component on the below.
+                                Available to using font-size in <code>pixel</code> and <code>rem</code> mode with classes. You can initialize the class like <code>.text-*</code> or <code>.text-r-*</code> like component on the below.
                             </div>
                             <div className="row">
                                 <div className="col-md-6">
