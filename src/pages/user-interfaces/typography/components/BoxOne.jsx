@@ -14,7 +14,7 @@ export class BoxOne extends Component {
                                 All HTML headings, <code>{`<h1>`}</code> through <code>{`<h6>`}</code>, are available. <code>.h1</code> through <code>.h6</code> classes are also available, 
                                 for when you want to match the font styling of a heading.
                             </div>
-                            <div className="table-responsive">
+                            <div className="table-responsive scroll-semi-dark for-x scroll-thin">
                                 <table className="table">
                                     <thead>
                                         <tr>

@@ -14,9 +14,9 @@ export class BoxThree extends Component {
                                 Available to using font-size in <code>pixel</code> and <code>rem</code> mode with classes. You can initialize the class like <code>.text-*</code> or <code>.text-r-*</code> like component on the below.
                             </div>
                             <div className="row">
-                                <div className="col-md-6">
-                                    <div  className="table-responsive scroll-y scroll-semi-dark for-y scroll-thin" style={{maxHeight:'400px'}}>
-                                        <table className="table">
+                                <div className="col-md-6 mgb-15">
+                                    <div className="table-responsive scroll-semi-dark for-x for-y scroll-thin" style={{maxHeight:'400px'}}>
+                                    <table className="table">
                                             <thead>
                                                 <tr>
                                                     <th className="text-start" width="70%">Text</th>
@@ -156,8 +156,8 @@ export class BoxThree extends Component {
                                         </table>
                                     </div>
                                 </div>
-                                <div className="col-md-6">
-                                    <div className="table-responsive scroll-y scroll-semi-dark for-y scroll-thin" style={{maxHeight:'400px'}}>
+                                <div className="col-md-6 mgb-15">
+                                    <div className="table-responsive scroll-semi-dark for-x for-y scroll-thin" style={{maxHeight:'400px'}}>
                                         <table className="table">
                                             <thead>
                                                 <tr>

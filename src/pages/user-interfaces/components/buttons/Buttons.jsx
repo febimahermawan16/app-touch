@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import CardBasic from './components/CardBasic'
-import CardColor from './components/CardColor'
-import CardImage from './components/CardImage'
-import CardOutline from './components/CardOutline'
 
-export class Cards extends Component {
+export class Buttons extends Component {
     render() {
         return (
             <React.Fragment>
@@ -13,7 +9,7 @@ export class Cards extends Component {
                     <div className="card">
                         <div className='card-body pdv-10 pdh-15'>
                             <h5 className="df-fdr df-algn-ct text-w-700 no-margin devider-flex">
-                                <span>Cards</span>
+                                <span>Buttons</span>
                                 <span className="card-title-devider"></span>
                                 <span className="text-r-p9 text-w-700 pdt-2">Route :</span>
                                 <span>
@@ -22,7 +18,8 @@ export class Cards extends Component {
                                             {/* <li className="breadcrumb-item" aria-current="page">Home</li> */}
                                             <li className="breadcrumb-item" aria-current="page"><Link to="/">Dashboard</Link></li>
                                             <li className="breadcrumb-item" aria-current="page"><Link to="/typography">User Interfaces</Link></li>
-                                            <li className="breadcrumb-item active" aria-current="page">Cards</li>
+                                            <li className="breadcrumb-item" aria-current="page"><Link to="/accordion">Components</Link></li>
+                                            <li className="breadcrumb-item active" aria-current="page">Buttons</li>
                                         </ol>
                                     </nav>
                                 </span>
@@ -30,13 +27,9 @@ export class Cards extends Component {
                         </div>
                     </div>
                 </div>
-                <CardBasic />
-                <CardImage />
-                <CardColor />
-                <CardOutline />
             </React.Fragment>
         )
     }
 }
 
-export default Cards
+export default Buttons

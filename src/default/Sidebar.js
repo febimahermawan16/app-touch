@@ -149,12 +149,12 @@ export class Sidebar extends Component {
                                             </a>
                                         </li>
                                         <li className="sidebar-list">
-                                            <a href="/" className="list-content">
+                                            <Link to="/components/buttons" className="list-content">
                                                 <span className="iicon">
                                                     <i className="bx bx-loader-circle"></i>
                                                 </span>
                                                 <span className="idescription use-icon">Buttons</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="sidebar-list">
                                             <a href="/" className="list-content">

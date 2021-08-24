@@ -16,6 +16,10 @@ import Typographys from '../pages/user-interfaces/typography/Typographys';
 // Cards
 import Cards from '../pages/user-interfaces/cards/Cards';
 
+// Component
+// Button
+import Buttons from '../pages/user-interfaces/components/buttons/Buttons';
+
 export class Routers extends Component {
     render() {
         return (
@@ -66,6 +70,31 @@ export class Routers extends Component {
                         <div className="content">
                             <div className="row">
                             <Cards />
+                            </div>
+                        </div>
+                        <Footer />
+                        </div>
+                    </Route>
+
+
+                    {/* Components */}
+                    {/* Accordion */}
+
+                    {/* Alert */}
+
+                    {/* Avatar */}
+
+                    {/* Badges */}
+                    
+                    {/* Breadcrumb */}
+
+                    {/* Buttons */}
+                    <Route path="/components/buttons">
+                        <Sidebar />
+                        <div className="app-content">
+                        <div className="content">
+                            <div className="row">
+                                <Buttons />
                             </div>
                         </div>
                         <Footer />

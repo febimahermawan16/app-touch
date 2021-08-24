@@ -14,7 +14,7 @@ export class BoxFour extends Component {
                                 Traditional heading elements are designed to work best in the meat of your page content. 
                                 When you need a heading to stand out, consider using a <b>display heading</b>—a larger, slightly more opinionated heading style.
                             </div>
-                            <div className="table-responsive">
+                            <div className="table-responsive scroll-semi-dark for-x scroll-thin">
                                 <table className="table">
                                     <thead>
                                         <tr>
