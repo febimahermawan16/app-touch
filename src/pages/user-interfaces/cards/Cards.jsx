@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import CardDefault from './components/defaults'
+import CardDefault from './components/CardDefault'
 
 export class Cards extends Component {
     render() {

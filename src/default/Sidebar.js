@@ -19,7 +19,7 @@ export class Sidebar extends Component {
                             <FirstPage />
                         </button>
                     </div>
-                    <div className="container-sidebar scroll-light scroll-thin">
+                    <div className="container-sidebar scroll-y scroll-light for-y scroll-thin">
                         <div className="content-sidebar use-border-bottom">
                             <ul>
                                 <li className="sidebar-title">Main</li>

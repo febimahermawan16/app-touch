@@ -32,6 +32,7 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     background: #f9f9f9;
+    color: #6E6B7B;
 }
 
 
@@ -1242,6 +1243,18 @@ textarea {
 
 /* Font Weight */
 
+.text-lighter{
+  font-weight: 300;
+}
+
+.text-normal{
+  font-weight: normal;
+}
+
+.text-bold{
+  font-weight: 500;
+}
+
 .text-w-100 {
   font-weight: 100;
 }
@@ -1381,6 +1394,16 @@ textarea {
 
 /* Text Color */
 
+.tcolor-white{
+  color: #fff;
+}
+.tcolor-white-2{
+  color: #dedada;
+}
+.tcolor-white-3{
+  color: #b9b3b3;
+}
+
 .tcolor-black{
   color: #000;
 }
@@ -1473,6 +1496,9 @@ textarea {
   color: #fff;
 }
 
+.card-text{
+  color: #6E6B7B;
+}
 /* End */
 
 
@@ -1555,6 +1581,36 @@ textarea {
 
 /* Heading */
 
+h1,.h1{
+  font-size: 2rem;
+}
+h2,.h2{
+  font-size: 1.714rem;
+}
+h3,.h3{
+  font-size: 1.5rem;
+}
+h4,.h4{
+  font-size: 1.286rem;
+}
+h5,.h5{
+  font-size: 1.07rem;
+}
+h6,.h6{
+  font-size: 1rem;
+}
+
+/* End */
+
+
+/* Code */
+code{
+  padding: .1rem .4rem;
+  font-size: 80%;
+  color: #2852c7;
+  background-color: #EEE;
+  border-radius: .1785rem;
+}
 /* End */
 
 
@@ -1564,6 +1620,28 @@ textarea {
 
 
 /* Badges */
+
+/* End */
+
+/* Table */
+
+.table th{
+  padding: .5rem;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .8rem;
+  font-weight: 700;
+  background: rgba(0,0,0,0.0375);
+  border-bottom: 0;
+}
+.table th:first-child{
+  border-radius: 5px 0 0 5px;
+}
+.table th:last-child{
+  border-radius: 0 5px 5px 0;
+}
+.table td{
+  border-bottom: 1px solid #efefef;
+}
 
 /* End */
 
@@ -1765,16 +1843,18 @@ textarea {
 
 /* Scroll Light */
 
-.scroll-light{
-  overflow-y: auto;
-}
-
-.scroll-light::-webkit-scrollbar {
+.scroll-light.for-y::-webkit-scrollbar {
   width: 10px;
 }
+.scroll-light.for-x::-webkit-scrollbar {
+  height: 10px;
+}
 
-.scroll-light.scroll-thin::-webkit-scrollbar {
+.scroll-light.for-y.scroll-thin::-webkit-scrollbar {
   width: 7px;
+}
+.scroll-light.for-x.scroll-thin::-webkit-scrollbar {
+  height: 7px;
 }
 
 .scroll-light::-webkit-scrollbar-track {
@@ -1790,6 +1870,75 @@ textarea {
 
 .scroll-light::-webkit-scrollbar-thumb:hover {
   background: rgb(255 255 255 / 32%);
+}
+
+/* End */
+
+
+/* Scroll Semi Dark */
+
+.scroll-semi-dark.for-y::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll-semi-dark.for-x::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scroll-semi-dark.for-y.scroll-thin::-webkit-scrollbar {
+  width: 7px;
+}
+.scroll-semi-dark.for-x.scroll-thin::-webkit-scrollbar {
+  height: 7px;
+}
+
+.scroll-semi-dark::-webkit-scrollbar-track {
+  background: rgb(0 0 0 / 5%);
+  border-radius: 25px;
+}
+
+.scroll-semi-dark::-webkit-scrollbar-thumb {
+  background: rgb(0 0 0 / 35%);
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.scroll-semi-dark::-webkit-scrollbar-thumb:hover {
+  background: rgb(0 0 0 / 50%);
+}
+
+/* End */
+
+
+/* Scroll Dark */
+
+.scroll-dark.for-y::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll-dark.for-x::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scroll-dark.for-y.scroll-thin::-webkit-scrollbar {
+  width: 7px;
+}
+.scroll-dark.for-x.scroll-thin::-webkit-scrollbar {
+  height: 7px;
+}
+
+.scroll-dark::-webkit-scrollbar-track {
+  background: rgb(0 0 0 / 12%);
+  border-radius: 25px;
+}
+
+.scroll-dark::-webkit-scrollbar-thumb {
+  /* background: rgb(255 255 255 / 12%); */
+  background: rgb(0 0 0 / 65%);
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.scroll-dark::-webkit-scrollbar-thumb:hover {
+  background: rgb(0 0 0 / 80%);
 }
 
 /* End */

@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import BoxFive from './components/BoxFive'
+import BoxFour from './components/BoxFour'
+import BoxOne from './components/BoxOne'
+import BoxThree from './components/BoxThree'
+import BoxTwo from './components/BoxTwo'
 
 export class Typographys extends Component {
     render() {
@@ -26,6 +31,11 @@ export class Typographys extends Component {
                         </div>
                     </div>
                 </div>
+                <BoxOne />
+                <BoxTwo />
+                <BoxThree />
+                <BoxFour />
+                <BoxFive />
             </React.Fragment>
         )
     }

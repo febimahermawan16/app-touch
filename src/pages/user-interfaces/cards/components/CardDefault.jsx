@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class defaults extends Component {
+export class CardDefault extends Component {
     render() {
         return (
             <React.Fragment>
@@ -21,4 +21,4 @@ export class defaults extends Component {
     }
 }
 
-export default defaults
+export default CardDefault
